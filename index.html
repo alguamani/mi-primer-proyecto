@@ -18,6 +18,10 @@
     a.whatsapp { background: #25d366; }
     .logo { width: 90px; height: 90px; border-radius: 50%; background: var(--principal); color: #fff; font-size: 36px; font-weight: bold; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
     footer { padding: 20px; color: #777; }
+    .tarjetas { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; max-width: 960px; margin-top: 20px; }
+    .tarjeta { background: #fff; border-top: 5px solid var(--principal); border-radius: 12px; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12); padding: 24px; flex: 1 1 250px; max-width: 300px; }
+    .tarjeta .icono { font-size: 40px; margin-bottom: 10px; }
+    .tarjeta h3 { color: var(--principal); margin: 0 0 10px; }
   </style>
 </head>
 <body>
@@ -32,6 +36,27 @@
     <p>Hola, soy Lucy Guamaní. Soy de Quito, Ecuador y estoy aprendiendo a crear y hacer crecer negocios digitales.</p>
     <br>
     <a class="boton whatsapp" href="https://wa.me/593999826238">Escríbeme por WhatsApp</a>
+  </section>
+  <section id="servicios">
+    <h2>Mis servicios</h2>
+    <p>Te acompaño a dar los primeros pasos de tu negocio en el mundo digital.</p>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <div class="icono">💡</div>
+        <h3>Asesoría para emprendedores</h3>
+        <p>Te ayudo a ordenar tu idea de negocio y a definir los primeros pasos para hacerla crecer.</p>
+      </div>
+      <div class="tarjeta">
+        <div class="icono">📱</div>
+        <h3>Redes sociales</h3>
+        <p>Creo y organizo el contenido de tus redes para que más personas conozcan tu marca.</p>
+      </div>
+      <div class="tarjeta">
+        <div class="icono">💻</div>
+        <h3>Páginas web sencillas</h3>
+        <p>Diseño una página web clara y bonita para que tus clientes te encuentren en internet.</p>
+      </div>
+    </div>
   </section>
   <footer>Hecho con cariño · 2026</footer>
 </body>
